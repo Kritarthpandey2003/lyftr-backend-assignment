@@ -4,3 +4,5 @@ down:
 	docker compose down -v
 logs:
 	docker compose logs -f api
+test:
+	docker compose exec api pytest
